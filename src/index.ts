@@ -1,8 +1,6 @@
 import { init, exit } from "package";
+
 init({
-  url: "true",
+  debug: true,
+  url: "false",
 });
-
-exit(1);
-
-localStorage.clear();
